@@ -20,16 +20,15 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"],
-      "auth": ["./auth"]
+      "@/*": ["./*"]
     }
   },
   "include": [
-    "process.d.ts",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "components/react-select/simple-select.jsx"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules",".next" ]
 }
